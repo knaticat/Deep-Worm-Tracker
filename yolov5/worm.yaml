@@ -1,0 +1,5 @@
+train: ../worm_detection_data/train/images
+val: ../worm_detection_data/valid/images
+
+nc: 1
+names: ['worm']
