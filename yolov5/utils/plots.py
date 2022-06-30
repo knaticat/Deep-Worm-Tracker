@@ -136,7 +136,7 @@ class Annotator:
                 for j in range(1,len(pts[id])):
                     if pts[id][j-1] is None or pts[id][j] is None:
                         continue
-                    cv2.line(self.im, (pts[id][j-1]), (pts[id][j]), color=color, thickness=2)
+                    cv2.line(self.im, (pts[id][j-1]), (pts[id][j]), color=(0,0,255), thickness=2)
                 
 
 
