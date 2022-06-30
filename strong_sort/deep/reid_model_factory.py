@@ -92,6 +92,18 @@ __trained_urls = {
     'https://drive.google.com/uc?id=1q3Sj2ii34NlfxA4LvmHdWO_75NDRmECJ',
     'osnet_ain_x1_0_msmt17.pt':
     'https://drive.google.com/uc?id=1SigwBE6mPdqiJMqhuIY4aqC7--5CsMal',
+
+    ###### worm models #########################################################
+    'mobilenetv2_x1_0_worm.pt':
+    'https://drive.google.com/uc?id=1cpYrLwS5PsMKEhkvulmKLS9FXjyz_lBm',
+    'mobilenetv2_x1_4_worm.pt':
+    'https://drive.google.com/uc?id=16ugTK9cKQLAM8Fu_30Qw8MOGstqVF9Qy',
+    'osnet_ain_x0_5_worm.pt':
+    'https://drive.google.com/uc?id=1f5zMwJZSIflbDa5UFaOdExPF8cdlXUX_',
+    'osnet_x0_5_worm.pt':
+    'https://drive.google.com/uc?id=1on3pzwrYY5fcYTg7ofOS5HF9eazKBfwt',
+    'osnet_x0_25_worm.pt':
+    'https://drive.google.com/uc?id=1uag5qPk1mp64MC4dI6sjXWyLQZQMTwIB',
 }
 
 

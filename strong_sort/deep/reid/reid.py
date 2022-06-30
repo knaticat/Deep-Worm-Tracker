@@ -3,6 +3,7 @@ from torchreid import models
 from wormreid import Worm
 
 if __name__ == '__main__':
+    #models.show_avai_models()
     torchreid.data.register_video_dataset('worm-reid-data', Worm)
 
     datamanager = torchreid.data.VideoDataManager(
@@ -14,7 +15,7 @@ if __name__ == '__main__':
     )
     
     model = torchreid.models.build_model(
-        name= 'mobilenetv2_x1_4',
+        name= 'osnet_ain_x0_5',
         num_classes=datamanager.num_train_pids,
         loss="softmax",
         pretrained= True   
@@ -42,7 +43,7 @@ if __name__ == '__main__':
     )
 
     engine.run(
-        save_dir="/home/user/Deep-Worm-Tracker/strong_sort/deep/checkpoint/mobilenetv2/",
+        save_dir="/home/user/Deep-Worm-Tracker/strong_sort/deep/checkpoint/osnet_ain_x0_5/",
         max_epoch=100,
         eval_freq=10,
         print_freq=31,
