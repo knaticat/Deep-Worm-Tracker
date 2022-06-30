@@ -239,7 +239,6 @@ def run(
                             id = int(id)  # integer id
                             if do_segment or do_skeleton:
                                 process_worm(bboxes, ims, BGR=True, color=colors(id, True), do_segment=do_segment, do_skeleton=do_skeleton)
-                            
                             if hide_labels:
                                 label = None
                             elif hide_class:
@@ -247,6 +246,8 @@ def run(
                             elif hide_conf:
                                 label = f'{id} {names[c]}'
                             elif show_id:
+                                label = f'{id}'
+                            else:
                                 label = f'{id}'
                             if show_id_black:
                                 annotator.box_label(bboxes, label, id=id, pts=pts, color=(0,0,0))
