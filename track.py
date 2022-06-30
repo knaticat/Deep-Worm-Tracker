@@ -65,7 +65,7 @@ def run(
         project=ROOT / 'runs/track',  # save results to project/name
         name='exp',  # save results to project/name
         exist_ok=False,  # existing project/name ok, do not increment
-        line_thickness=3,  # bounding box thickness (pixels)
+        line_thickness=1,  # bounding box thickness (pixels)
         hide_labels=False,  # hide labels
         show_id=False, #display only ID
         show_id_black=False, #display ID in black
@@ -346,7 +346,7 @@ def parse_opt():
     parser.add_argument('--project', default=ROOT / 'runs/track', help='save results to project/name')
     parser.add_argument('--name', default='exp', help='save results to project/name')
     parser.add_argument('--exist-ok', action='store_true', help='existing project/name ok, do not increment')
-    parser.add_argument('--line-thickness', default=3, type=int, help='bounding box thickness (pixels)')
+    parser.add_argument('--line-thickness', default=1, type=int, help='bounding box thickness (pixels)')
     parser.add_argument('--hide-labels', default=False, action='store_true', help='hide labels')
     parser.add_argument('--show-id', default=False, action='store_true', help='show id only')
     parser.add_argument('--show-id-black', default=False, action='store_true', help='show id in black only')
