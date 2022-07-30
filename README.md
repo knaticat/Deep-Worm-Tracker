@@ -13,7 +13,7 @@ This repository contains the code to Deep-Worm-Tracker a realtime Deep Learning 
 
 ## Steps to Installation
 
-It is reccomended to create separate conda environments for installing individual packages for the object detection (training YOLOv5 model), tracking (training the torchreid model) and combined final model (for getting final track results). The steps would look something like:
+It is reccomended to create separate conda environments for installing individual packages for the object detection (training YOLO model), tracking (training the torchreid model) and combined final model (for getting final track results). The steps would look something like:
 
 1. Clone the repository:
 
@@ -45,6 +45,9 @@ It is reccomended to create separate conda environments for installing individua
     ```
 ## Training YOLO model
 
+The step by step instructions for training a YOLO model with a new dataset can be found in [YOLO training (link to external repository)](https://github.com/ultralytics/yolov5/wiki/Train-Custom-Data)&nbsp;.
+The worm detection dataset is available at [worm-data](https://drive.google.com/drive/folders/1PM4Rvrz-V6p-xqAEWsz66tAKu4W5x8Mc?usp=sharing) which can be extracted and training resumed.
+A combination of [DarkMark](https://github.com/stephanecharette/DarkMark)&nbsp; and [Roboflow](https://roboflow.com/annotate) were used for annotating the dataset images. It's reccomended to use Roboflow for future annotations on newer image data for the user friendly interface. 
 ## Training Strong SORT reid model
 
 ## Acknowledgements
