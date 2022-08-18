@@ -75,8 +75,9 @@ This work was possible due to the contributions from:
 
 ```latex
 @misc{deep-worm-tracker,
-    title={},
-    author={Shoubhik Banerjee, Rati Sharma},
+    title={Deep-Worm-Tracker: Deep Learning Methods for Accurate
+Detection and Tracking for Behavioral Studies in C. elegans},
+    author={Shoubhik Banerjee, Khursheed Ahmad Khan and Rati Sharma},
     howpublished = {\url{https://github.com/knaticat/Deep-Worm-Tracker}},
     year={2022}
 }
