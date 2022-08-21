@@ -74,11 +74,12 @@ This work was possible due to the contributions from:
 ## Cite the work
 
 ```latex
-@misc{deep-worm-tracker,
+@article{deep-worm-tracker,
     title={Deep-Worm-Tracker: Deep Learning Methods for Accurate
 Detection and Tracking for Behavioral Studies in C. elegans},
     author={Shoubhik Banerjee, Khursheed Ahmad Khan and Rati Sharma},
-    howpublished = {\url{https://github.com/knaticat/Deep-Worm-Tracker}},
+    journal = {bioRxiv preprint},
+    howpublished = {\url{https://doi.org/10.1101/2022.08.18.504475}},
     year={2022}
 }
 ```
