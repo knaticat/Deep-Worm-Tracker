@@ -74,12 +74,17 @@ This work was possible due to the contributions from:
 ## Cite the work
 
 ```latex
-@article{deep-worm-tracker,
-    title={Deep-Worm-Tracker: Deep Learning Methods for Accurate
-Detection and Tracking for Behavioral Studies in C. elegans},
-    author={Shoubhik Banerjee, Khursheed Ahmad Khan and Rati Sharma},
-    journal = {bioRxiv preprint},
-    howpublished = {\url{https://doi.org/10.1101/2022.08.18.504475}},
-    year={2022}
+@article{BANERJEE2023106024,
+title = {Deep-worm-tracker: Deep learning methods for accurate detection and tracking for behavioral studies in C. elegans},
+journal = {Applied Animal Behaviour Science},
+volume = {266},
+pages = {106024},
+year = {2023},
+issn = {0168-1591},
+doi = {https://doi.org/10.1016/j.applanim.2023.106024},
+url = {https://www.sciencedirect.com/science/article/pii/S016815912300196X},
+author = {Shoubhik Chandan Banerjee and Khursheed Ahmad Khan and Rati Sharma},
+keywords = {, Real time tracking, Deep learning, Tracker},
+abstract = {Accurate detection and tracking of model organisms such as C. elegans worms remains a fundamental task in behavioral studies. Traditional Machine Learning and Computer Vision methods produce poor detection results and suffer from repeated ID switches during tracking under occlusions and noisy backgrounds. Considering this, we propose Deep-Worm-Tracker, an end-to-end Deep Learning (DL) model, which is a combination of You Only Look Once (YOLOv5) object detection model and Strong Simple Online Real Time Tracking (Strong SORT) tracking backbone that is highly accurate and provides tracking results in real-time inference speeds. Present literature has few solutions to track animals under occlusions and even fewer publicly available large-scale animal re-ID datasets. Thus, we also provide a worm re-ID dataset to minimize worm ID switches, which, to the best of our knowledge, is the first of its kind for C. elegans. We are able to track worms at a mean Average Precision (mAP@0.5) >98% within just 9 min of training time with inference speeds of 9–15 ms for worm detection and on average 27 ms for worm tracking. Our tracking results show that Deep-Worm-Tracker is well suited for ethological studies involving C. elegans.}
 }
 ```
